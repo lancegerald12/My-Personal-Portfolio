@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Lance.</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer and Web Designer</p>
+                <h1>Hi! I'm <span>Lance Gerald</span><br>From Philippines</h1>
+                <p>Bachelor of Science in Information System</p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="box" style="--clr: #f40103">
+                        <img src="images/picture1.png" class="pic">
+                    </div>
+                
+                    <div class="mema">
+                        <h2>Full Stack Developer</h2>
+                        <p>
+                            •Handsome <br />•Slightly Genius <br />•Guitarist <br />•Photographer
+                            <br />•Pussy Lover<br />•Ukulele Gods <br />•Programmer
+                            <br />•Rubiks Master <br />•65Kg <br />•5'6 Height
+                        </p>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! This is Lance. I am currently learning more in the world of programming and this website is my final project in Web Programming.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Creating a basic app in python</li>
+                            <li><span>C++</span><br>First Programming language I learned</li>
+                            <li><span>Web Development</span><br>Web Designer and App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Studying College in EXACT</li>
+                            <li><span>2024</span><br>Start making some cool stuff like website of mine in EXACT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to our Web Design Services, where creativity meets functionality. We specialize in crafting visually
+                        stunning and highly responsive websites tailored to meet your unique business needs.</p>
+                </div>
+                <div>
+                    <i class='bx bxs-crop' ></i>
+                    <h2>UI Design</h2>
+                    <p>
+                        UI Design Services Elevate your digital presence with our expert UI Design Services. We specialize in creating visually appealing
+                        and highly functional user interfaces that captivate your audience and enhance user interaction.</p>
+                </div>
+                <div>
+                    <i class='bx bx-happy-alt' ></i>
+                    <h2>App Design</h2>
+                    <p>Transform your ideas into engaging and user-friendly mobile applications with our App Design Services. We specialize in creating
+                        intuitive and visually stunning app interfaces that provide an exceptional user experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/hobby1.png">
+                    <div class="layer">
+                        <h3>Billiards</h3>
+                        <p>This is one of my hobbies, I love playing billiards with my frinds and when I'm alone</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hobby2.png">
+                    <div class="layer">
+                        <h3>Guitar</h3>
+                        <p>This is one of my hobbies, I love playing guiutar it makes me happy</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hobby3.png">
+                    <div class="layer">
+                        <h3>Billiards</h3>
+                        <p>This is also billiards, I love billiards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class='bx bx-mail-send' ></i> mlancegerald@gmail.com</p>
+                <p><i class='bx bx-phone' ></i> 09108195190</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100079152166374"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href=""><i class='bx bxl-twitter' ></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href=""><i class='bx bxl-discord-alt' ></i></a>
+                </div>
+                <a href="images/" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>This Is My Personal Portfolio By Lance pogi<i class='bx bx-wink-smile' ></i></p>
+    </div>
+</div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxAJkEFUKZ2E1OAXETtS1zNUzxMQuP4HM80GVdyA2DSmVhL71WZs7nw0BP9OEQ3EQw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
